@@ -1,5 +1,6 @@
 #
 raw_data/NBS_v2_validated_marcxml.xml
+raw_data/full_scottish_authors.tsv
 
 # History files
 .Rhistory
