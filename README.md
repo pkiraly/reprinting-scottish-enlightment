@@ -7,7 +7,7 @@ Data sources
 - [English Short Title Catalogue](http://estc.bl.uk/F/?func=file&file_name=login-bl-estc)
 
 
-## Usage
+## Get data
 
 1. Download and extract NBS data into `./raw_data`.
 
@@ -40,3 +40,12 @@ java -cp $JAR de.gwdg.metadataqa.marc.cli.Formatter \
 
 It creates raw_data/nbs-data.csv with ' ### ' as column separator. If a data element is repeated, the individual values as separated by ' # '.
 
+3. Get ESTC data from the COMHIS team.
+
+## Run
+
+```
+Rscript scripts/comhis.R
+```
+
+It generates a number of images in the `img` directory and `dated_authors.csv` file in `data` directory.
